@@ -51,6 +51,5 @@ namespace History.Domain.Models {
 
             AddDomainEvent(new UpdateRecordWatchHistoryDomainEvent(Id, enable));
         }
-
     }
 }
